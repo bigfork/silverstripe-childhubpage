@@ -1,8 +1,8 @@
 {
-  "name": "i-lateral/silverstripe-childhubpage",
+  "name": "dft/silverstripe-childhubpage",
   "description": "Simple Silverstripe module that shows child pages as either a list or grid",
   "type": "silverstripe-vendormodule",
-    "homepage": "https://github.com/i-lateral/silverstripe-childhubpage",
+    "homepage": "https://github.com/Dean-Forest-Tech/silverstripe-childhubpage",
     "keywords": [
         "silverstripe",
         "children",
@@ -19,10 +19,10 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/i-lateral/silverstripe-childhubpage/issues"
+        "issues": "https://github.com/Dean-Forest-Tech/silverstripe-childhubpage/issues"
     },
     "require": {
-        "silverstripe/cms": "~4.0"
+        "silverstripe/cms": "^4 || ^5"
     },
     "extra": {
         "expose": [
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\ChildHubPage\\": "src/"
+            "DFT\\SilverStripe\\ChildHubPage\\": "src/"
         }
     }
 }
