@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ChildHubPage\Model;
+namespace DFT\SilverStripe\ChildHubPage\Model;
 
 use SilverStripe\ORM\PaginatedList;
 use PageController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ChildHubPage\Model;
+namespace DFT\SilverStripe\ChildHubPage\Model;
 
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\Forms\CheckboxField;
@@ -16,18 +16,18 @@ class ChildHubPage extends Page
     /**
      * @var string
      */
-    private static $icon = "resources/i-lateral/silverstripe-childhubpage/client/dist/img/grid.png";
-    
+    private static $icon = "resources/dft/silverstripe-childhubpage/client/dist/img/grid.png";
+
     /**
      * @var string
      */
     private static $description = 'Display all children of this page as either a list or grid';
-        
+
     private static $db = [
         "ShowChildrenAs" => "Enum(array('Grid','List'),'Grid')",
         "ShowSideBar" => "Boolean"
     ];
-    
+
     public function getSettingsFields()
     {
         $fields = parent::getSettingsFields();
@@ -50,5 +50,5 @@ class ChildHubPage extends Page
 
         return $fields;
     }
-    
+
 }
