@@ -35,3 +35,8 @@ SS4 updates to add:
 ## 2.0.4
 
 * Move line end conditional for grid into relevent include (for easier template manipulation)
+
+## 2.0.5
+
+* Migrate to DFT
+* Add SS5 support

@@ -8,7 +8,7 @@ trees, without adding lots more complexity to the CMS.
 
 ## Author
 
-This module was created by [ilateral](http://www.ilateral.co.uk).
+This module was created by [Dean Forest Tech](https://dean-forest-tech.uk).
 
 ## Installation
 
@@ -18,7 +18,7 @@ You can install this module either manually or via composer.
 
 The default way to do this is to use composer, via:
 
-    composer require i-lateral/silverstripe-childhubpage
+    composer require dft/silverstripe-childhubpage
 
 ### From source / manually
 
