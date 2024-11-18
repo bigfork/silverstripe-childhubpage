@@ -16,7 +16,7 @@ class ChildHubPage extends Page
     /**
      * @var string
      */
-    private static $icon = "resources/dft/silverstripe-childhubpage/client/dist/img/grid.png";
+    private static $icon = "_resources/vendor/dft/silverstripe-childhubpage/client/dist/img/grid.png";
 
     /**
      * @var string
